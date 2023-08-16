@@ -15,7 +15,7 @@ public class Task4 {
         List<Integer> nums = readFile(fileName);
 
         int minMoves = calculateMinMoves(nums);
-        System.out.println("Минимальное количество ходов: " + minMoves);
+        System.out.println(minMoves);
     }
 
     /**
